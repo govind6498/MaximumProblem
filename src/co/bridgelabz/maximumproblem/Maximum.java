@@ -27,13 +27,13 @@ public class Maximum {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter First Integer: ");
-		Integer firstIntegerNumber = Integer.valueOf(sc.nextInt());
-		System.out.print("Enter Second Integer: ");
-		Integer secondIntegerNumber = Integer.valueOf(sc.nextInt());
+		System.out.print("Enter First Float: ");
+		Float firstFloatNumber=Float.valueOf(sc.nextFloat());
+		System.out.print("Enter Second Float: ");
+		Float secondFloatNumber=Float.valueOf(sc.nextFloat());
 		System.out.print("Enter Third Integer: ");
-		Integer thirdIntegerNumber = Integer.valueOf(sc.nextInt());
-		findMaximum(firstIntegerNumber, secondIntegerNumber, thirdIntegerNumber);
+		Float thirdFloatNumber=Float.valueOf(sc.nextFloat());
+		findMaximum(firstFloatNumber, secondFloatNumber, thirdFloatNumber);
 		sc.close();
 	}
 }
